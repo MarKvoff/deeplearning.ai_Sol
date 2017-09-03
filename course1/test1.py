@@ -9,5 +9,6 @@ print ' '
 
 cal = A.sum(axis=0)
 print cal
+print cal.sum(axis=0)
 
 print 100*A/cal
